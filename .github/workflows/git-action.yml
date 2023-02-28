@@ -8,7 +8,7 @@ jobs:
       - name: Say Hello World
         run: echo 'Hello World'
 
-      -name: View a file
+      - name: View a file
         run: |
           echo 'Viewinng the file: '
           cat requirements.txt
